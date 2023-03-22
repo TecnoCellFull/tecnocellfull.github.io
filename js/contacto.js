@@ -20,10 +20,10 @@ function sendEmail()
 	//alert(cuerpoMensaje);
 
 	Email.send({
-        Host: "smtpout.secureserver.net",
-        Username : "info@tecnocellfull.com",
+        Host: "smtp.gmail.com",
+        Username : "omonzonoi@gmail.com",
         Password : "Qbanmed3",
-        To : 'info@tecnocellfull.com',
+        To : 'omonzonoi@gmail.com,
         From : emailDesde,
         Subject : "Información Solicitada desde sitio TecnoCellFull.com (No te hagas el salame)",
         Body : bodymsj,
